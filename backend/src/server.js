@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import userRoutes from "./routes/user.routes.js";
 import cookieParser from "cookie-parser";
-import scoreRoute from "./routes/score.routes.js";
+import scoreRoutes from "./routes/score.routes.js";
 
 
 dotenv.config();
